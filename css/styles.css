@@ -269,12 +269,12 @@ small.text-muted {
     transition: all 0.25s ease-out;
   }
 
-  .row-offcanvas-left.active {
-    left: 33%;
+  .row-offcanvas-right.active {
+    right: -33%;
   }
 
-  .row-offcanvas-left.active .sidebar-offcanvas {
-    left: -33%;
+  .row-offcanvas-right.active .sidebar-offcanvas {
+    right: 33%;
     position: absolute;
     top: 0;
     width: 33%;
